@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+  background-color: #CFEDF1;
+}
+
+body .box1{
+	position: relative;
+	background-image: url("./toothe.jpg");
+	width: 1280px;
+	height: 580px;
+}
+body .box1.card-text{
+	position: absolute;
+	font-weight: bold;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-40%);
+	background-color: #69DFF8;
+	width: 10rem;
+	line-height: 100px;
+}
+
+body .box2 {
+	background-image: url("https://cdn.cybassets.com/s/files/19008/theme/90725/assets/1675754948_47075b13_bg_01.png?1675754949");
+	background-repeat: repeat 0 0;
+	position: relative;
+	padding: 20;
+	vertical-align:middle;
+}
+
+body .box2 .point{
+	content: "";
+	position: relative;
+	top: 0;
+	left: 50%;
+	right: 0;
+	bottom:0;
+	transform: translate(-50%, -50%)
+	margin: 0 auto;
+	direction: block;
+	vertical-align: middle;
+}
+
+body .box3.img{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+@media (max-width: 1020px) {
+  .box1{
+	  background-image:url("./toothe.jpg")
+	font-size: 3.2vw;
+    padding-bottom: 0.8vw;
+    margin-bottom: 1.2vw;
+  }
+	.box3.img{
+		background-image: url("https://cdn.cybassets.com/s/files/19008/theme/90725/assets/1675738056_1821d090_ora2metoothpoint2.jpg?1675738056")
+		left:50%;
+		top: 50%;
+	}
+}
+@media (max-width:680px){
+  .box1.card-img.col-img {
+    font-size: 3.2vw;
+    padding-bottom: 0.8vw;
+    margin-bottom: 1.2vw;
+  }
+	.box3.img{
+		background-image: url("https://cdn.cybassets.com/s/files/19008/theme/90725/assets/1675933007_15de8dea_ora2metoothpoint3.jpg?1675933007")
+		left:50%;
+		top: 50%;
+	}
+}
+@media (min-width: 768px) {
+  .mainVisual .box {
+    background: url("https://cdn.cybassets.com/s/files/19008/theme/90725/assets/1675933007_15de8dea_ora2metoothpoint3.jpg?1675933007") no-repeat 0 0/100% auto;
+  }
+}/*# sourceMappingURL=toothestyle.css.map */
